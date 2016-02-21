@@ -8,7 +8,7 @@
 class cfgVehicles 
 {	 
 #include "cfgBackpacks.hpp"
-#include "cfgMisc.hpp"
+//#include "cfgMisc.hpp"
 #include "cfgTroopsDesert.hpp"
 #include "cfgCrates.hpp"
 #include "cfgAircraft.hpp"

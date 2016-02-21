@@ -1,39 +1,17 @@
 /*
-	Name: 160th SOR Mod
-	Author: AmTheAgent (Edited by Scooby)
-	Date: 27/09/15 01:09
+	Name: 160th SOR Mod Adv Med
+	Author: Scooby
+	Date: 27/02/16
 	Description: cfgFactionClasses.hpp
 */
 
 class cfgFactionClasses
 {
-	class SOR_Faction_D 
+	class SOR_Faction_D_AM 
 	{
-		displayName = "160th SOR (Desert)";
+		displayName = "160th SOR (Desert) [Adv Med]";
 		icon = "160thSOR\data\160th.paa";
 		priority = 1;
 		side = 1;
 	};
-	class SOR_Faction_OBJ
-	{
-		displayName = "160th SOR Objects";
-		icon = "160thSOR\data\160th.paa";
-		priority = 2;
-		side = 1;
-	};
-	class SOR_Faction_CRATE
-	{
-		displayName = "160th SOR Supplies";
-		icon = "160thSOR\data\160th.paa";
-		priority = 3;
-		side = 1;
-	};
-	
-	/*
-	class NO_CATEGORY;
-	class SOR_Modules : NO_CATEGORY
-	{
-		displayName = "Test";
-	};
-	*/
 };

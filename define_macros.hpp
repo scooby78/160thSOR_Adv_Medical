@@ -1,3 +1,10 @@
+/*
+	Name: 160th SOR Mod Adv Med
+	Author: Scooby
+	Date: 27/02/16
+	Description: define_macros.hpp
+*/
+
 #define Author_Macro author=$STR_AUTHOR_FULL;
 
 #define mag_xx(a,b) class _xx_##a {magazine = a; count = b;}
@@ -26,32 +33,35 @@
 							"ItemGPS" 						
 
 						
-#define Standard_Meds   "ACE_fieldDressing",\
-						"ACE_fieldDressing",\
-						"ACE_fieldDressing",\
-						"ACE_fieldDressing",\
-						"ACE_fieldDressing",\
-						"ACE_fieldDressing",\
-						"ACE_fieldDressing",\
-						"ACE_fieldDressing",\
-						"ACE_morphine",\
-						"ACE_morphine",\
-						"ACE_morphine",\
+#define Standard_Meds   "ACE_tourniquet",\
+						"ACE_tourniquet",\
+						"ACE_tourniquet",\
+						"ACE_tourniquet",\
+						"ACE_elasticBandage",\
+						"ACE_elasticBandage",\
+						"ACE_elasticBandage",\
+						"ACE_elasticBandage",\
+						"ACE_quikclot",\
+						"ACE_quikclot",\
+						"ACE_quikclot",\
+						"ACE_quikclot",\
 						"ACE_EarPlugs"
 						
-#define Recon_Meds  	"ACE_fieldDressing",\
-						"ACE_fieldDressing",\
-						"ACE_fieldDressing",\
-						"ACE_fieldDressing",\
-						"ACE_fieldDressing",\
-						"ACE_fieldDressing",\
-						"ACE_fieldDressing",\
-						"ACE_fieldDressing",\
-						"ACE_morphine",\
+#define Recon_Meds  	"ACE_tourniquet",\
+						"ACE_tourniquet",\
+						"ACE_tourniquet",\
+						"ACE_tourniquet",\
+						"ACE_elasticBandage",\
+						"ACE_elasticBandage",\
+						"ACE_elasticBandage",\
+						"ACE_elasticBandage",\
+						"ACE_quikclot",\
+						"ACE_quikclot",\
+						"ACE_quikclot",\
+						"ACE_quikclot",\
 						"ACE_morphine",\
 						"ACE_epinephrine",\
-						"ACE_epinephrine",\
-						"ACE_bloodIV_500",\
+						"ACE_salineIV_250",\
 						"ACE_EarPlugs"
 
 #define SL_Equip 		"ACE_CableTie",\
