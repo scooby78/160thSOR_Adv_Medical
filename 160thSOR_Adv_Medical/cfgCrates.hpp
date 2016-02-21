@@ -41,7 +41,7 @@
 		class TransportMagazines{};
 		class TransportBackpacks
 		{
-			pack_xx(SOR_PJMedicPack_D,4)
+			pack_xx(SOR_PJMedicPack_D_AM,4)
 		};
 	};
 
@@ -60,7 +60,7 @@
 		class TransportMagazines{};
 		class TransportBackpacks
 		{
-			pack_xx(SOR_Medic_Pack_D,2)
+			pack_xx(SOR_Medic_Pack_D_AM,2)
 		};
 	};	
 
@@ -71,7 +71,7 @@
 // All in one Crate		
 	class SOR_AM_Crate_F_AM : B_supplyCrate_F
 	{
-		displayName = "Crate [Ammo& Adv Med]";
+		displayName = "Crate [Ammo&AdvMed]";
 		vehicleClass = "SOR_SupplyCrates";
 		faction = SOR_Faction_CRATE;
 		icon = "iconCrateAmmo";
@@ -99,7 +99,7 @@
 		};
 		class TransportBackpacks
 		{
-			pack_xx(SOR_Medic_Pack_D,4)
+			pack_xx(SOR_Medic_Pack_D_AM,4)
 		};
 	};
 
@@ -110,7 +110,6 @@
 // Medical pod	
 	class SOR_Land_Pod_Heli_Transport_04_medevac_F_AM : Land_Pod_Heli_Transport_04_medevac_F
 	{
-
 		displayName = "Taru Pod [Adv Medical CCP]";
 		vehicleClass = "SOR_SupplyCrates";
 		faction = SOR_Faction_CRATE;
@@ -141,7 +140,7 @@
 		};
 		class TransportBackpacks
 		{
-			pack_xx(SOR_Medic_Pack_D,4)
-			pack_xx(SOR_PJMedicPack_D,4)
+			pack_xx(SOR_Medic_Pack_D_AM,4)
+			pack_xx(SOR_PJMedicPack_D_AM,4)
 		};
 	};
