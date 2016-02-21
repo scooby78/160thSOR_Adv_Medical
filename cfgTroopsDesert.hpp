@@ -1,3 +1,11 @@
+/*
+	Name: 160th SOR Mod Adv Med
+	Author: Scooby
+	Date: 27/02/16
+	Description: cfgTroopsDesert.hpp
+*/
+
+
 //////////////////////		
 //Base Soldier Class//
 //////////////////////
