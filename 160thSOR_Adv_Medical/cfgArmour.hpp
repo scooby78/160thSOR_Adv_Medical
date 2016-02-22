@@ -7,12 +7,13 @@
 
 	class RHS_M2A3_BUSKIII;
 	class rhsusf_m113d_usarmy;
+	class rhsusf_m113d_usarmy_medical;	
 	class rhsusf_m1a2sep1tuskid_usarmy;
 	class rhsusf_m1a2sep1tuskiid_usarmy;
+	class rhsusf_m1a1aim_tuski_d;
 	
 //M2A3 (BUSK III)	
-class SOR_M2A3_BUSKIII : RHS_M2A3_BUSKIII
-
+	class SOR_M2A3_BUSKIII : RHS_M2A3_BUSKIII
 	{
 		class TransportItems 
 		{
@@ -20,19 +21,43 @@ class SOR_M2A3_BUSKIII : RHS_M2A3_BUSKIII
 		};
 	};
 
-//M11A3 Armour 300 	
-class SOR_rhsusf_m113d_usarmy : rhsusf_m113d_usarmy
-
+//M11A3 	
+	class SOR_rhsusf_m113d_usarmy : rhsusf_m113d_usarmy
 	{
 		class TransportItems 
 		{
 			item_xx(ACE_quikclot,10);			
 		};
 	};
+	
+//M11A3 Medical
+	class SOR_rhsusf_m113d_usarmy_medical : rhsusf_m113d_usarmy_medical
+	{
+		class TransportItems 
+		{
+			item_xx(ACE_quikclot,20)
+			item_xx(ACE_packingBandage,20)			
+			item_xx(ACE_Fielddressing,20)
+			item_xx(ACE_elasticBandage,20)
+			item_xx(ACE_morphine,15)
+			item_xx(ACE_epinephrine,15)
+			item_xx(ACE_atropine,15)
+			item_xx(ACE_bloodIV,5);	
+		};
+	};	
 
-//Tusk I
-class SOR_rhsusf_m1a2sep1tuskid_usarmy : rhsusf_m1a2sep1tuskid_usarmy
+//M1A1 (Tusk I)
+class SOR_rhsusf_m1a1aim_tuski_d : rhsusf_m1a1aim_tuski_d
+	{
+		class TransportItems 
+		{
+			item_xx(ACE_quikclot,10);			
+		};
+	};
+	
 
+//M1A2 (Tusk I)
+	class SOR_rhsusf_m1a2sep1tuskid_usarmy : rhsusf_m1a2sep1tuskid_usarmy
 	{
 		class TransportItems 
 		{
@@ -40,9 +65,8 @@ class SOR_rhsusf_m1a2sep1tuskid_usarmy : rhsusf_m1a2sep1tuskid_usarmy
 		};
 	};	
 
-//Tusk II
-class SOR_rhsusf_m1a2sep1tuskiid_usarmy : rhsusf_m1a2sep1tuskiid_usarmy
-
+//M1a2 (Tusk II)
+	class SOR_rhsusf_m1a2sep1tuskiid_usarmy : rhsusf_m1a2sep1tuskiid_usarmy
 	{
 		class TransportItems 
 		{
