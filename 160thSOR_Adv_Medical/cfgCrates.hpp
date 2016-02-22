@@ -9,6 +9,7 @@
 	class B_supplyCrate_F;
 	class Land_MetalCase_01_large_F;
 	class Land_Pod_Heli_Transport_04_medevac_F;
+	
 
 	
 /////////////////
@@ -39,10 +40,7 @@
 		};		
 		class TransportWeapons{};
 		class TransportMagazines{};
-		class TransportBackpacks
-		{
-			pack_xx(SOR_PJMedicPack_D_AM,4)
-		};
+		class TransportBackpacks{};
 	};
 
 // Medical Box 
@@ -62,7 +60,21 @@
 		{
 			pack_xx(SOR_Medic_Pack_D_AM,2)
 		};
-	};	
+	};
+
+	class SOR_PJ_Pack_Box_F : Land_PlasticCase_01_large_F
+	{
+		displayName = "Box PJ Adv Pack Storage [Static]";
+		vehicleClass = "SOR_SupplyBoxes";
+		faction = SOR_Faction_CRATE;
+		class TransportItems{};		
+		class TransportWeapons{};
+		class TransportMagazines{};
+		class TransportBackpacks
+		{
+			pack_xx(SOR_PJMedicPack_D_AM,7)
+		};
+	};		
 
 ///////////////////////////
 // Sling loadable Crates //
