@@ -64,6 +64,8 @@
 			item_xx(G_Diving,3)
 			item_xx(U_B_Wetsuit,3)
 			item_xx(V_RebreatherB,3)
+			item_xx(ACE_personalAidKit,3)			
+			
 		};		
 	};
 	
@@ -170,6 +172,7 @@
 			item_xx(G_Diving,3)
 			item_xx(U_B_Wetsuit,3)
 			item_xx(V_RebreatherB,3)
+			item_xx(ACE_personalAidKit,5)	
 		};
 	};
 

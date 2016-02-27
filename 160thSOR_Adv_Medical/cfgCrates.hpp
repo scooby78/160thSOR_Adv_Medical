@@ -9,7 +9,7 @@
 	class B_supplyCrate_F;
 	class Land_MetalCase_01_large_F;
 	class Land_Pod_Heli_Transport_04_medevac_F;
-	
+	class Land_PlasticCase_01_large_F;
 
 	
 /////////////////
@@ -62,7 +62,7 @@
 		};
 	};
 
-	class SOR_PJ_Pack_Box_F : Land_PlasticCase_01_large_F
+	class SOR_PJ_Pack_Box_F_AM : Land_PlasticCase_01_large_F
 	{
 		displayName = "Box PJ Adv Pack Storage [Static]";
 		vehicleClass = "SOR_SupplyBoxes";
@@ -139,7 +139,7 @@
 			item_xx(ACE_plasmaIV,30);
 			item_xx(ACE_plasmaIV_500,30);
 			item_xx(ACE_tourniquet,30);
-			item_xx(ACE_personalAidKit,5);	
+			item_xx(ACE_personalAidKit,10);	
 		};		
 		class TransportWeapons{};
 		class TransportMagazines

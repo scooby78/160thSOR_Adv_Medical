@@ -16,7 +16,11 @@ class CfgPatches
 		};
 		units[] = 
 		{	
-			"SOR_PJ_Box_F_AM","SOR_M_Box_F_AM","SOR_AM_Crate_F_AM","SOR_Land_Pod_Heli_Transport_04_medevac_F_AM"
+			"SOR_PJ_Box_F_AM",
+			"SOR_M_Box_F_AM",
+			"SOR_AM_Crate_F_AM",
+			"SOR_Land_Pod_Heli_Transport_04_medevac_F_AM",
+			"SOR_PJ_Pack_Box_F_AM"
 		};		
 	};
 };
