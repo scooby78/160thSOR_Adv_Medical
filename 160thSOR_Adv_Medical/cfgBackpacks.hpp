@@ -40,8 +40,7 @@
 			item_xx(ACE_salineIV_500,8);			
 			item_xx(ACE_morphine,10);
 			item_xx(ACE_epinephrine,10);
-			item_xx(ACE_atropine,10);
-			item_xx(rhsusf_acc_ACOG,1)			
+			item_xx(ACE_atropine,10)
 		};		
 	};
 
