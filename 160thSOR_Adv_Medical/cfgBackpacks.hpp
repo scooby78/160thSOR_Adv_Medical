@@ -23,6 +23,7 @@
 			item_xx(ACE_morphine,10);
 			item_xx(ACE_epinephrine,10);
 			item_xx(ACE_atropine,10);
+			item_xx(ACE_adenosine,10);		
 			
 		};
 	};
@@ -37,10 +38,11 @@
 			item_xx(ACE_elasticBandage,20);
 			item_xx(ACE_quikclot,20);
 			item_xx(ACE_packingBandage,20);			
-			item_xx(ACE_salineIV_500,8);			
+			item_xx(ACE_salineIV_500,6);			
 			item_xx(ACE_morphine,10);
 			item_xx(ACE_epinephrine,10);
-			item_xx(ACE_atropine,10)
+			item_xx(ACE_atropine,10);
+			item_xx(ACE_adenosine,10);			
 		};		
 	};
 

@@ -10,7 +10,7 @@ class B_supplyCrate_F;
 class Land_MetalCase_01_large_F;
 class Land_Pod_Heli_Transport_04_medevac_F;
 class Land_PlasticCase_01_large_F;
-
+class B_CargoNet_01_ammo_F;
 
 /////////////////
 //Static stores//
@@ -23,7 +23,7 @@ class SOR_PJ_Box_F_AM : Land_MetalCase_01_large_F
 	editorSubcategory = "SOR_SubCat_SupplyBoxes";
 	vehicleClass = "SOR_SupplyBoxes";	
 	faction = SOR_Faction_CRATE;			
-	displayName = "Box PJ Medical[Static]";
+	displayName = "Box PJ Adv Medical[Static]";
 	class TransportItems
 	{
 		item_xx(ACE_fieldDressing,30);
@@ -32,6 +32,7 @@ class SOR_PJ_Box_F_AM : Land_MetalCase_01_large_F
 		item_xx(ACE_quikclot,30);			
 		item_xx(ACE_morphine,20);			
 		item_xx(ACE_atropine,20);
+		item_xx(ACE_adenosine,20);		
 		item_xx(ACE_epinephrine,20);
 		item_xx(ACE_bloodIV,30);
 		item_xx(ACE_bloodIV_500,30);
@@ -48,9 +49,11 @@ class SOR_PJ_Box_F_AM : Land_MetalCase_01_large_F
 // Medical Box 
 class SOR_M_Box_F_AM : ACE_medicalSupplyCrate
 {
+	editorCategory = "SOR_Cat_Supplies";
+	editorSubcategory = "SOR_SubCat_SupplyBoxes";
+	vehicleClass = "SOR_SupplyBoxes";	
+	faction = SOR_Faction_CRATE;			
 	displayName = "Box [Adv Medical]";
-	vehicleClass = "SOR_SupplyBoxes";
-	faction = SOR_Faction_CRATE;
 	class TransportItems
 	{
 		item_xx(ACE_elasticBandage,40);
@@ -70,7 +73,7 @@ class SOR_PJ_Pack_Box_F_AM : Land_PlasticCase_01_large_F
 	editorSubcategory = "SOR_SubCat_SupplyBoxes";
 	vehicleClass = "SOR_SupplyBoxes";	
 	faction = SOR_Faction_CRATE;		
-	displayName = "Box PJ Pack Storage [Static]";
+	displayName = "Box PJ Pack Storage [Adv Med]";
 	class TransportItems{};		
 	class TransportWeapons{};
 	class TransportMagazines{};
@@ -85,13 +88,13 @@ class SOR_PJ_Pack_Box_F_AM : Land_PlasticCase_01_large_F
 ///////////////////////////
 
 // All in one Crate		
-class SOR_AM_Crate_F_AM : B_supplyCrate_F
+class SOR_AM_Crate_F_AM : B_CargoNet_01_ammo_F
 {
 	editorCategory = "SOR_Cat_Supplies";
 	editorSubcategory = "SOR_SubCat_SupplyCrates";
 	vehicleClass = "SOR_SupplyCrates";	
 	faction = SOR_Faction_CRATE;
-	displayName = "Crate [Ammo&Med]";
+	displayName = "Crate [Ammo & Adv Med]";
 	icon = "iconCrateAmmo";
 	class TransportItems
 	{
@@ -109,8 +112,6 @@ class SOR_AM_Crate_F_AM : B_supplyCrate_F
 		mag_xx(rhs_mag_M433_HEDP,10)
 		mag_xx(rhs_mag_m714_White,10)			
 		mag_xx(rhs_mag_m713_Red,10)	
-		mag_xx(MAAWS_HEAT,5)
-		mag_xx(MAAWS_HEDP,5)			
 		mag_xx(rhs_mag_m67,20)
 		mag_xx(rhs_mag_an_m8hc,20)
 		mag_xx(rhs_mag_m18_green,20)
@@ -132,7 +133,7 @@ class SOR_Land_Pod_Heli_Transport_04_medevac_F_AM : Land_Pod_Heli_Transport_04_m
 	editorSubcategory = "SOR_SubCat_SupplyCrates";
 	vehicleClass = "SOR_SupplyCrates";	
 	faction = SOR_Faction_CRATE;
-	displayName = "Taru Pod [Medical CCP]";
+	displayName = "Taru Pod [Medical CCP Adv]";
 	class TransportItems
 	{
 		item_xx(ACE_fieldDressing,30);
@@ -141,6 +142,7 @@ class SOR_Land_Pod_Heli_Transport_04_medevac_F_AM : Land_Pod_Heli_Transport_04_m
 		item_xx(ACE_quikclot,30);			
 		item_xx(ACE_morphine,20);			
 		item_xx(ACE_atropine,20);
+		item_xx(ACE_adenosine,20);		
 		item_xx(ACE_epinephrine,20);
 		item_xx(ACE_bloodIV,30);
 		item_xx(ACE_bloodIV_500,30);

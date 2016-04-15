@@ -65,15 +65,16 @@ class SOR_rhsusf_m113d_usarmy_unarmed : rhsusf_m113d_usarmy_unarmed
 	{
 		class TransportItems 
 		{
-			item_xx(ACE_quikclot,20)
-			item_xx(ACE_packingBandage,20)			
-			item_xx(ACE_Fielddressing,20)
-			item_xx(ACE_elasticBandage,20)
-			item_xx(ACE_morphine,15)
-			item_xx(ACE_epinephrine,15)
-			item_xx(ACE_atropine,15)
-			item_xx(ACE_bloodIV,5)
-			item_xx(ACE_personalAidKit,3)				
+			item_xx(ACE_quikclot,20);
+			item_xx(ACE_packingBandage,20);		
+			item_xx(ACE_Fielddressing,20);
+			item_xx(ACE_elasticBandage,20);
+			item_xx(ACE_morphine,15);
+			item_xx(ACE_epinephrine,15);
+			item_xx(ACE_atropine,15);
+			item_xx(ACE_adenosine,15);	
+			item_xx(ACE_bloodIV,5);
+			item_xx(ACE_personalAidKit,3);				
 		};
 	};	
 
