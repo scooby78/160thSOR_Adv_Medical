@@ -8,15 +8,11 @@
 class RHS_UH60M;
 class RHS_UH60M_MEV2;
 class RHS_CH_47F;
-class MELB_AH6M_H;
-class MELB_AH6M_L;
-class MELB_AH6M_M;
-class MELB_H6M;
-class MELB_MH6M;
-class FIR_F16C_TWAS;
-class FIR_F16C_TWAS2;
-class FIR_F16C;
-class FIR_F16C_Polish_CFT;
+class RHS_MELB_AH6M_H;
+class RHS_MELB_AH6M_L;
+class RHS_MELB_AH6M_M;
+class RHS_MELB_H6M;
+class RHS_MELB_MH6M;
 class O_Heli_Transport_04_F;
 class O_Heli_Transport_04_medevac_F;
 class O_Heli_Transport_04_bench_F;
@@ -70,7 +66,7 @@ class SOR_UH60M_MEV2 : RHS_UH60M_MEV2
 	};		
 };
 
-class SOR_MELB_H6M : MELB_H6M
+class SOR_MELB_H6M : RHS_MELB_H6M
 {
 	class TransportItems 
 	{
@@ -78,7 +74,7 @@ class SOR_MELB_H6M : MELB_H6M
 	};
 };	
 
-class SOR_MELB_MH6M : MELB_MH6M
+class SOR_MELB_MH6M : RHS_MELB_MH6M
 {
 	class TransportItems 
 	{
@@ -86,7 +82,7 @@ class SOR_MELB_MH6M : MELB_MH6M
 	};
 };	
 
-class SOR_MELB_MH6M_MEV : MELB_MH6M
+class SOR_MELB_MH6M_MEV : RHS_MELB_MH6M
 {
 	class TransportItems 
 	{
@@ -106,7 +102,7 @@ class SOR_MELB_MH6M_MEV : MELB_MH6M
 };	
 
 // Attack Helos	
-class SOR_MELB_AH6M_L : MELB_AH6M_L
+class SOR_MELB_AH6M_L : RHS_MELB_AH6M_L
 {
 	class TransportItems 
 	{
@@ -114,7 +110,7 @@ class SOR_MELB_AH6M_L : MELB_AH6M_L
 	};
 };	
 
-class SOR_MELB_AH6M_M : MELB_AH6M_M
+class SOR_MELB_AH6M_M : RHS_MELB_AH6M_M
 {
 	class TransportItems 
 	{
@@ -122,7 +118,7 @@ class SOR_MELB_AH6M_M : MELB_AH6M_M
 	};
 };	
 
-class SOR_MELB_AH6M_H : MELB_AH6M_H
+class SOR_MELB_AH6M_H : RHS_MELB_AH6M_H
 {
 	class TransportItems 
 	{

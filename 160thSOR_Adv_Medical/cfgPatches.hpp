@@ -7,12 +7,13 @@
 
 class CfgPatches 
 {
-	class SOR_Desert_Loadouts_Adv_Medical 
+	class 160th_SOR_Loadouts_Adv_Medical 
 	{
-		requiredVersion = 0.1;
+		version="1.0.0";
+//		requiredVersion = 0.1;
 		requiredAddons[] = 
 		{
-			"SOR_Desert_Loadouts"
+			"160th_SOR_Loadouts"
 		};
 		units[] = 
 		{	

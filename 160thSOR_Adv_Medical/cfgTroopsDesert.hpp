@@ -84,6 +84,18 @@ class SOR_AirCommand_D : SOR_Commander_D
 	vehicleclass = "SOR_Infantry_AIR";
 	uavHacker = 1; // allows UAV control
 	engineer = 1; // allows unit to repair 
+	Items[] =
+	{
+		"B_UavTerminal",
+		Standard_Meds,
+		SL_Equip
+	};  
+	RespawnItems[] = 
+	{
+		"B_UavTerminal",
+		Standard_Meds,
+		SL_Equip
+	};
 	linkedItems[] = 
 	{	
 		"rhsusf_iotv_ocp_Rifleman", 
@@ -95,6 +107,28 @@ class SOR_AirCommand_D : SOR_Commander_D
 		"rhsusf_iotv_ocp_Rifleman", 
 		"H_PilotHelmetHeli_O",
 		Airborne_Equipment
+	};
+};	
+
+//Zeus unit
+class SOR_ZeusCommand_D : SOR_Commander_D
+{
+	displayName = "Zeus";
+	linkedItems[] = 
+	{	
+		"rhsusf_iotv_ocp_Repair",
+		"rhsusf_cvc_ess", 
+		"rhs_balaclava",
+		"ItemGPS",
+		Standard_Equipment
+	};
+	respawnLinkedItems[] = 
+	{	
+		"rhsusf_iotv_ocp_Repair", 
+		"rhsusf_cvc_ess", 
+		"rhs_balaclava",
+		"ItemGPS",
+		Standard_Equipment
 	};
 };	
 
