@@ -42,16 +42,8 @@ class SOR_Commander_D : B_officer_F
 	vehicleclass = "SOR_Infantry";
 	uniformClass = "rhs_uniform_cu_ocp";
 	displayName = "Commander";
-	Items[] =
-	{
-		Standard_Meds,
-		SL_Equip
-	};  
-	RespawnItems[] = 
-	{
-		Standard_Meds,
-		SL_Equip
-	};
+	Items[] = {Standard_Meds,SL_Equip};  
+	RespawnItems[] = {Standard_Meds,SL_Equip};  
 };
 
 //Mechanised Commander 
@@ -98,13 +90,13 @@ class SOR_AirCommand_D : SOR_Commander_D
 	};
 	linkedItems[] = 
 	{	
-		"rhsusf_iotv_ocp_Rifleman", 
+		"V_Rangemaster_belt", 
 		"H_PilotHelmetHeli_O",
 		Airborne_Equipment
 	};              
 	respawnLinkedItems[] = 
 	{	
-		"rhsusf_iotv_ocp_Rifleman", 
+		"V_Rangemaster_belt", 
 		"H_PilotHelmetHeli_O",
 		Airborne_Equipment
 	};
@@ -116,18 +108,18 @@ class SOR_ZeusCommand_D : SOR_Commander_D
 	displayName = "Zeus";
 	linkedItems[] = 
 	{	
-		"rhsusf_iotv_ocp_Repair",
-		"rhsusf_cvc_ess", 
-		"rhs_balaclava",
-		"ItemGPS",
+		"rhsusf_iotv_ocp_Squadleader",
+		"rhsusf_ach_helmet_headset_ocp", 
+		"ItemGPS", 
+		"rhs_googles_clear",  
 		Standard_Equipment
 	};
 	respawnLinkedItems[] = 
 	{	
-		"rhsusf_iotv_ocp_Repair", 
-		"rhsusf_cvc_ess", 
-		"rhs_balaclava",
-		"ItemGPS",
+		"rhsusf_iotv_ocp_Squadleader",
+		"rhsusf_ach_helmet_headset_ocp", 
+		"ItemGPS", 
+		"rhs_googles_clear",  
 		Standard_Equipment
 	};
 };	

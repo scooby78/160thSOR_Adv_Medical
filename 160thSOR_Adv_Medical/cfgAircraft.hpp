@@ -27,6 +27,29 @@ class I_Plane_Fighter_03_CAS_F;
 class RHS_AH64D_AA;
 class RHS_AH64D_CS;
 class RHS_AH64D_GS;
+class RHS_A10_AT;
+class FIR_F15_Base;
+class FIR_F15E_Base;
+class B_Heli_Transport_01_camo_F;
+class B_T_VTOL_01_infantry_F;
+
+class SOR_VTOL_Troop_D : B_T_VTOL_01_infantry_F
+{
+	class TransportItems 
+	{
+		item_xx(ACE_quikclot,10);
+		item_xx(V_RebreatherB,4);
+	};
+};
+
+class SOR_B_Heli_Transport_01_camo_F : B_Heli_Transport_01_camo_F
+{
+	class TransportItems 
+	{
+		item_xx(ACE_quikclot,10);
+		item_xx(V_RebreatherB,4);
+	};
+};
 
 // Transport Helos	
 class SOR_UH60M : RHS_UH60M
@@ -34,6 +57,7 @@ class SOR_UH60M : RHS_UH60M
 	class TransportItems 
 	{
 		item_xx(ACE_quikclot,10);
+		item_xx(V_RebreatherB,4);
 	};
 };
 
@@ -42,6 +66,7 @@ class SOR_CH_47F : RHS_CH_47F
 	class TransportItems 
 	{
 		item_xx(ACE_quikclot,10);
+		item_xx(V_RebreatherB,4);
 	};
 };
 
@@ -150,31 +175,56 @@ class SOR_RHS_AH64D_GS : RHS_AH64D_GS
 	};
 };		
 
+////////////	
+// Planes //
+////////////
+class SOR_RHS_A10 : RHS_A10_AT
+{
+	class TransportItems 
+	{
+		item_xx(ACE_quikclot,10);
+	};
+};
+
+class SOR_FIGHTER : FIR_F15_Base
+{
+	class TransportItems 
+	{
+		item_xx(ACE_quikclot,10);
+	};	
+};
+
+class SOR_STRIKE_FIGHTER : FIR_F15E_Base
+{
+	class TransportItems 
+	{
+		item_xx(ACE_quikclot,10);
+	};
+};
+
+
 /////////////////////
 //Captured Aircraft//
 /////////////////////
 
-// Medivac Taru (Fixed pod)
-class SOR_O_Heli_Transport_04_medevac_F : O_Heli_Transport_04_medevac_F
+class SOR_O_Heli_Transport_04_F : O_Heli_Transport_04_F
 {
-	class TransportItems
+	class TransportItems 
 	{
-		item_xx(ACE_quikclot,20);
-		item_xx(ACE_packingBandage,20);			
-		item_xx(ACE_Fielddressing,20);
-		item_xx(ACE_elasticBandage,20);
-		item_xx(ACE_morphine,15);
-		item_xx(ACE_epinephrine,15);
-		item_xx(ACE_atropine,15);
-		item_xx(ACE_adenosine,15);		
-		item_xx(ACE_bloodIV,5);	
-		item_xx(G_Diving,3);
-		item_xx(U_B_Wetsuit,3);
-		item_xx(V_RebreatherB,3);
-		item_xx(ACE_personalAidKit,5);	
+		item_xx(ACE_quikclot,10);
+		item_xx(V_RebreatherB,4);		
 	};
 };
 
+// Civilial troop transport	
+class SOR_RHS_Mi8amt_civilian : RHS_Mi8amt_civilian
+{
+	class TransportItems 
+	{
+		item_xx(ACE_quikclot,10);
+		item_xx(V_RebreatherB,4);		
+	};
+};
 //Attack
 class SOR_O_Heli_Attack_02_F : O_Heli_Attack_02_F
 {

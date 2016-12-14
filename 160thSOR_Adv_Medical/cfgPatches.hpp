@@ -9,8 +9,8 @@ class CfgPatches
 {
 	class 160th_SOR_Loadouts_Adv_Medical 
 	{
-		version="1.0.0";
-//		requiredVersion = 0.1;
+		author="160th SOR";
+		url="http://www.160th.net";
 		requiredAddons[] = 
 		{
 			"160th_SOR_Loadouts"
@@ -20,7 +20,7 @@ class CfgPatches
 			"SOR_PJ_Box_F_AM",
 			"SOR_M_Box_F_AM",
 			"SOR_AM_Crate_F_AM",
-			"SOR_Land_Pod_Heli_Transport_04_medevac_F_AM",
+			"SOR_Taru_Pod_medevac_Black_AM",
 			"SOR_PJ_Pack_Box_F_AM"
 		};		
 	};
