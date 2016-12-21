@@ -41,10 +41,14 @@
 						"ACE_elasticBandage",\
 						"ACE_elasticBandage",\
 						"ACE_elasticBandage",\
-						"ACE_quikclot",\
-						"ACE_quikclot",\
-						"ACE_quikclot",\
-						"ACE_quikclot",\
+						"ACE_elasticBandage",\
+						"ACE_elasticBandage",\
+						"ACE_fieldDressing",\
+						"ACE_fieldDressing",\
+						"ACE_fieldDressing",\
+						"ACE_fieldDressing",\
+						"ACE_fieldDressing",\
+						"ACE_fieldDressing",\
 						"ACE_EarPlugs"
 						
 #define Recon_Meds  	"ACE_tourniquet",\
@@ -55,10 +59,14 @@
 						"ACE_elasticBandage",\
 						"ACE_elasticBandage",\
 						"ACE_elasticBandage",\
-						"ACE_quikclot",\
-						"ACE_quikclot",\
-						"ACE_quikclot",\
-						"ACE_quikclot",\
+						"ACE_elasticBandage",\
+						"ACE_elasticBandage",\
+						"ACE_fieldDressing",\
+						"ACE_fieldDressing",\
+						"ACE_fieldDressing",\
+						"ACE_fieldDressing",\
+						"ACE_fieldDressing",\
+						"ACE_fieldDressing",\
 						"ACE_morphine",\
 						"ACE_epinephrine",\
 						"ACE_salineIV_250",\
@@ -112,3 +120,5 @@
 #define Std_m1911a1		"rhsusf_mag_7x45acp_MHP",\
 						"rhsusf_mag_7x45acp_MHP",\
 						"rhsusf_mag_7x45acp_MHP"
+						
+#define SOR_defib		"ACE_personalAidKit"					

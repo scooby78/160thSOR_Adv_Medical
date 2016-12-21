@@ -218,16 +218,16 @@ class SOR_ParaJumper_D : B_medic_F
 	RespawnItems[] = {Standard_Meds,"rhsusf_acc_ACOG",SL_Equip}; 
 	linkedItems[] = 
 	{	
-		"rhsusf_iotv_ocp_Medic",
-		"H_HelmetSpecB_paint2",
-		"rhs_ess_black", 
+		"rhsusf_spcs_ocp_rifleman",
+		"rhsusf_opscore_mc_cover_pelt_cam",
+		"rhs_googles_black", 
 		Airborne_Equipment
 	};
 	respawnLinkedItems[] = 
 	{	
-		"rhsusf_iotv_ocp_Medic",
-		"H_HelmetSpecB_paint2",
-		"rhs_ess_black", 
+		"rhsusf_spcs_ocp_rifleman",
+		"rhsusf_opscore_mc_cover_pelt_cam",
+		"rhs_googles_black", 
 		Airborne_Equipment
 	};
 };
