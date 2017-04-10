@@ -11,7 +11,7 @@ class CfgPatches
 	{
 		author="160th SOR";
 		url="http://www.160th.net";
-		version="2.2.3.2";
+		version="2.3.1.2";
 		requiredAddons[] = 
 		{
 			"160th_SOR_Loadouts"

@@ -146,6 +146,13 @@ class SOR_Medic_D : B_medic_F
 	RespawnItems[] = {Standard_Meds};
 };
 
+class SOR_HMedic_D : SOR_Medic_D
+{
+	backpack = "SOR_PJMedicPack_D_AM";
+	Items[] = {Standard_Meds};
+	RespawnItems[] = {Standard_Meds};
+};
+
 // Auto rifleman
 class SOR_M249AR_D : B_soldier_AR_F
 {
