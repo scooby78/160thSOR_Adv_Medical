@@ -7,9 +7,9 @@
 
 class cfgVehicles 
 {	 
-#include "cfgBackpacks.hpp"
-#include "cfgTroopsDesert.hpp"
-#include "cfgCrates.hpp"
-#include "cfgAircraft.hpp"
-#include "cfgArmour.hpp"
+	#include "cfgBackpacks.hpp"
+	#include "cfgTroopsDesert.hpp"
+	#include "cfgCrates.hpp"
+	#include "cfgAircraft.hpp"
+	#include "cfgArmour.hpp"
 };

@@ -30,14 +30,35 @@ class B_Truck_01_ammo_F;
 class B_Truck_01_fuel_F;
 class B_Truck_01_Repair_F;
 class B_Boat_Transport_01_F;
+class Cha_Des1_LAV25A2;
+class Cha_Des1_LAV25_HQ;
 
 // new supply suggestions by Bean
 class rhsusf_M977A4_REPAIR_BKIT_M2_usarmy_d;
 class rhsusf_M977A4_AMMO_BKIT_M2_usarmy_d;
 class rhsusf_M978A4_BKIT_usarmy_d;
 
+// LAV25A2
+class SOR_LAV : Cha_Des1_LAV25A2
+{
+	class TransportItems 
+	{
+		item_xx(ACE_quikclot,20);			
+	};
+};
+
+// LAV25A2
+class SOR_LAV_HQ : Cha_Des1_LAV25_HQ
+{
+	class TransportItems 
+	{
+		item_xx(ACE_quikclot,20);			
+	};
+};
+
+
 //M6A2	
-class SOR_RHS_M6 : RHS_M6
+class SOR_M6A2 : RHS_M6
 {
 	class TransportItems 
 	{
@@ -55,7 +76,7 @@ class SOR_M2A3_BUSKIII : RHS_M2A3_BUSKIII
 };
 
 //M11A3 	
-class SOR_rhsusf_m113d_usarmy : rhsusf_m113d_usarmy
+class SOR_M113 : rhsusf_m113d_usarmy
 {
 	class TransportItems 
 	{
@@ -64,7 +85,7 @@ class SOR_rhsusf_m113d_usarmy : rhsusf_m113d_usarmy
 };
 
 //M113A3 (Supply)	
-class SOR_rhsusf_m113d_usarmy_supply : rhsusf_m113d_usarmy_supply
+class SOR_M113_SUPPLY : rhsusf_m113d_usarmy_supply
 {
 	class TransportItems 
 	{
@@ -73,7 +94,7 @@ class SOR_rhsusf_m113d_usarmy_supply : rhsusf_m113d_usarmy_supply
 };
 
 //M113A3 (Unarmed)	
-class SOR_rhsusf_m113d_usarmy_unarmed : rhsusf_m113d_usarmy_unarmed
+class SOR_M113_UNARMED : rhsusf_m113d_usarmy_unarmed
 {
 	class TransportItems 
 	{
@@ -82,7 +103,7 @@ class SOR_rhsusf_m113d_usarmy_unarmed : rhsusf_m113d_usarmy_unarmed
 };
 	
 //M11A3 Medical
-	class SOR_rhsusf_m113d_usarmy_medical : rhsusf_m113d_usarmy_medical
+class SOR_M113_MEDICAL : rhsusf_m113d_usarmy_medical
 {
 	class TransportItems 
 	{
@@ -99,8 +120,17 @@ class SOR_rhsusf_m113d_usarmy_unarmed : rhsusf_m113d_usarmy_unarmed
 	};
 };	
 
+//M1A1
+class SOR_M1A1 : rhsusf_m1a1aimd_usarmy
+{
+	class TransportItems 
+	{
+		item_xx(ACE_quikclot,20);				
+	};
+};
+
 //M1A1 (Tusk I)
-class SOR_rhsusf_m1a1aim_tuski_d : rhsusf_m1a1aim_tuski_d
+class SOR_M1A1_TUSKI : rhsusf_m1a1aim_tuski_d
 {
 	class TransportItems 
 	{
@@ -109,7 +139,7 @@ class SOR_rhsusf_m1a1aim_tuski_d : rhsusf_m1a1aim_tuski_d
 };
 
 //M1A2
-class SOR_rhsusf_m1a2sep1d_usarmy : rhsusf_m1a2sep1d_usarmy
+class SOR_M1A2 : rhsusf_m1a2sep1d_usarmy
 {
 	class TransportItems 
 	{
@@ -118,7 +148,7 @@ class SOR_rhsusf_m1a2sep1d_usarmy : rhsusf_m1a2sep1d_usarmy
 };	
 
 //M1A2 (Tusk I)
-class SOR_rhsusf_m1a2sep1tuskid_usarmy : rhsusf_m1a2sep1tuskid_usarmy
+class SOR_M1A2_TUSKI : rhsusf_m1a2sep1tuskid_usarmy
 {
 	class TransportItems 
 	{
@@ -127,7 +157,7 @@ class SOR_rhsusf_m1a2sep1tuskid_usarmy : rhsusf_m1a2sep1tuskid_usarmy
 };	
 
 //M1a2 (Tusk II)
-class SOR_rhsusf_m1a2sep1tuskiid_usarmy : rhsusf_m1a2sep1tuskiid_usarmy
+class SOR_M1A2_TUSKII : rhsusf_m1a2sep1tuskiid_usarmy
 {
 	class TransportItems 
 	{
@@ -136,7 +166,7 @@ class SOR_rhsusf_m1a2sep1tuskiid_usarmy : rhsusf_m1a2sep1tuskiid_usarmy
 };	
 
 //Troop transport
-class SOR_rhsusf_M1083A1P2_d_fmtv_usarmy : rhsusf_M1083A1P2_d_fmtv_usarmy
+class SOR_TROOP_TRUCK : rhsusf_M1083A1P2_d_fmtv_usarmy
 {
 	class TransportItems
 	{
@@ -146,7 +176,7 @@ class SOR_rhsusf_M1083A1P2_d_fmtv_usarmy : rhsusf_M1083A1P2_d_fmtv_usarmy
 };
 	
 //Troop transport
-class SOR_rhsusf_m1025_d : rhsusf_m1025_d
+class SOR_TROOP_CAR : rhsusf_m1025_d
 {
 	class TransportItems
 	{
@@ -156,7 +186,7 @@ class SOR_rhsusf_m1025_d : rhsusf_m1025_d
 };
 	
 //Troop armed transport GL
-class SOR_rhsusf_m1025_d_Mk19 : rhsusf_m1025_d_Mk19
+class SOR_TROOP_CAR_MK19 : rhsusf_m1025_d_Mk19
 {
 	class TransportItems
 	{
@@ -166,7 +196,7 @@ class SOR_rhsusf_m1025_d_Mk19 : rhsusf_m1025_d_Mk19
 };
 	
 //Troop armed transport MG
-class SOR_rhsusf_m1025_d_m2 : rhsusf_m1025_d_m2
+class SOR_TROOP_CAR_M2 : rhsusf_m1025_d_m2
 {
 	class TransportItems
 	{
@@ -176,7 +206,7 @@ class SOR_rhsusf_m1025_d_m2 : rhsusf_m1025_d_m2
 };	
 
 //Troop unarmed transport 4 door
-class SOR_rhsusf_m998_d_4dr : rhsusf_m998_d_4dr
+class SOR_TROOP_CAR_4DR : rhsusf_m998_d_4dr
 {
 	class TransportItems
 	{
@@ -186,7 +216,7 @@ class SOR_rhsusf_m998_d_4dr : rhsusf_m998_d_4dr
 };	
 
 //Troop unarmed transport 2 door
-class SOR_rhsusf_m998_d_2dr : rhsusf_m998_d_2dr
+class SOR_TROOP_CAR_2DR : rhsusf_m998_d_2dr
 {
 	class TransportItems
 	{
